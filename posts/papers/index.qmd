@@ -1,0 +1,24 @@
+---
+title: "Papers"
+description: "List of my favourite papers"
+image: "images/papers.png"
+image-alt: "Image created by AI"
+categories: 
+    - machine learning
+    - rstats
+listing:
+    contents: 
+    - paper1.qmd
+    sort: "date desc"
+    type: table
+---
+
+```{=html}
+<style>
+  body {
+    background-image: url('https://images.pexels.com/photos/167538/pexels-photo-167538.jpeg');
+    background-size: cover;
+    background-repeat: no-repeat;
+  }
+</style>
+```

@@ -1,9 +1,18 @@
 ---
 title: "About"
+image: "images/profile_pic.png"
 ---
 
-About this site
+## About Me
 
-```{r}
-1 + 1
-```
+Hello! I'm a dedicated data science expert with over a decade of experience in transforming complex data into actionable insights. With a strong background in computer science and mathematics, I have honed my skills in data analysis, machine learning, and artificial intelligence.
+
+My journey in data science began with a fascination for uncovering hidden patterns and trends within vast datasets. Over the years, I have had the privilege of working on numerous high-impact projects across various industries, including healthcare, finance, and technology. My work has involved developing predictive models, optimizing algorithms, and creating innovative data-driven solutions that drive business growth and efficiency.
+
+I am passionate about leveraging the power of data to solve real-world problems and improve decision-making processes. I believe in the importance of continuous learning and staying updated with the latest advancements in the field, which is why I am actively involved in the data science community through attending conferences, participating in workshops, and contributing to open-source projects.
+
+In my current role, I lead a team of talented data scientists, guiding them in exploring new methodologies and tools to push the boundaries of what's possible with data. My goal is to foster a collaborative environment where creativity and critical thinking thrive, ultimately delivering impactful results for our clients and stakeholders.
+
+Outside of work, I enjoy mentoring aspiring data scientists and sharing my knowledge through blogging and public speaking. I am committed to promoting diversity and inclusion in the tech industry, and I actively support initiatives that encourage underrepresented groups to pursue careers in data science.
+
+Let's connect and explore how we can harness the power of data together!

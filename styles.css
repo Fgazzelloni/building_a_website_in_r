@@ -1,1 +1,23 @@
 /* css styles */
+body {
+  background-color: lightblue;
+}
+
+h1 {
+  color: #4a5054;
+  text-align: center;
+  letter-spacing: 5px;
+  font-size: 50px;
+}
+
+p {
+  font-family: verdana;
+  font-size: 20px;
+}
+
+pre {
+  background-color: #f0f0f0; /* Change this color to your preferred background color */
+  padding: 10px;
+  border-radius: 5px;
+}
+

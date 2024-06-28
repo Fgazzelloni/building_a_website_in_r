@@ -1,0 +1,15 @@
+---
+title: "Talks"
+description: "Welcome to the Talks section! Here, you’ll find a collection of presentations and lectures on a variety of data science topics. Whether you’re interested in the latest trends in machine learning, data visualization techniques, or real-world applications of predictive analytics, these talks are designed to inform, inspire, and engage. Join me as we explore the cutting-edge advancements in data science and unlock the potential of data to transform our world."
+image: "images/talks.png"
+image-alt: "Image created by AI"
+about:
+  template: trestles
+listing:
+    contents: 
+    - talk1.qmd
+    sort: "date desc"
+    type: default
+    image-height: "400"
+    categories: true
+---

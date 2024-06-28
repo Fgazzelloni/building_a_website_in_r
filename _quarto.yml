@@ -1,19 +1,52 @@
 project:
   type: website
-
+  
 website:
-  title: "building_a_website_in_r"
+  title: "My Website in R & Quarto"
+  site-url: https://fgazzelloni.quarto.pub/my-website-in-r--quarto/
+  favicon: "images/profile_pic.png"
+  margin-header: |
+     ![My Profile Picture](/images/profile_pic.png)
+  back-to-top-navigation: true   
   navbar:
+    logo: images/profile_pic.png
+    search: true
     left:
       - href: index.qmd
         text: Home
+      - href: posts/projects/index.qmd 
+        text: Projects
+      - href:  posts/talks/index.qmd 
+        text: Talks
+      - href:  posts/papers/index.qmd 
+        text: Papers
       - about.qmd
+    right:
+      - icon: github
+        href: https://github.com/rladiesrome
+        aria-label: GitHub 
+  page-footer:
+    background: "#4a5054"
+    left: |
+      Copyright &copy; 2024 [R-Ladies Rome & NYC](https://federicagazzelloni.com/)
+    center:  
+      - href: https://github.com/rladiesrome
+        icon: github
+        aria-label: GitHub
+      - href: https://twitter.com/rladiesrome
+        icon: twitter
+        aria-label: Twitter
+    right: |
+      [Made with 💜 and Quarto](https://quarto.org/)    
 
 format:
   html:
-    theme: cosmo
+    theme:
+      light: slate
+      dark: darkly 
+    code-block-bg: "#d6d9da"
+    code-block-border-left: "#31BAE9"
     css: styles.css
     toc: true
 
 editor: visual
-

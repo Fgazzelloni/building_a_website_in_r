@@ -1,0 +1,16 @@
+---
+title: "Projects"
+description: "This is where I tell all about my on-going projects."
+listing:
+  contents: 
+    - project1.qmd
+    - project2.qmd
+  sort: "date desc"
+  type: default
+  categories: true
+  sort-ui: false
+  filter-ui: false 
+page-layout: full
+title-block-banner: true
+page-navigation: true
+---

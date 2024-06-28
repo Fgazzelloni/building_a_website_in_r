@@ -1,11 +1,61 @@
 ---
-title: "building_a_website_in_r"
+title: 'Welcome to my Website!🩷'
+image: "images/homepage.jpg"
+image-alt: "Image created by AI"
+about: 
+  template: marquee
+title-block-banner: 'rgba(145,137,193, 0.5)'
+title-block-banner-color: "#000000"
+title-block-banner-background: "#ffffff"
+listing:
+  contents: posts
+  sort: "date desc"
+  type: default
+  grid-columns: 3
+  image-height: "200"
+  max-items: 3
+  categories: cloud
+  image-placeholder: "images/profile_pic.png" 
 ---
 
-This is a Quarto website.
-
-To learn more about Quarto websites visit <https://quarto.org/docs/websites>.
-
 ```{r}
-1 + 1
+#| eval: false
+#| echo: false
+
 ```
+
+```{=html}
+<style>
+  body {
+    background-image: url('https://images.pexels.com/photos/843266/pexels-photo-843266.jpeg');
+    background-size: cover;
+    background-repeat: no-repeat;
+   }
+ </style>
+```
+### Welcome to My Data Science Hub
+
+Welcome to my Data Science Hub, where I am dedicated to unlocking the potential of data to drive innovation and excellence. As an experienced data scientist, I specialize in transforming complex data into actionable insights that empower businesses to make informed decisions and achieve their goals.
+
+### My Mission
+
+I strive to provide cutting-edge data science solutions that harness the power of advanced analytics, machine learning, and artificial intelligence. My mission is to help organizations navigate the complexities of the modern data landscape, uncover hidden patterns, and make data-driven decisions with confidence.
+
+### What I Offer
+
+-   **Data Analytics:** Comprehensive data analysis services that reveal trends, patterns, and insights to guide strategic decision-making.
+-   **Machine Learning:** Development and implementation of custom machine learning models tailored to your unique business needs.
+-   **AI Solutions:** Innovative AI-driven solutions that automate processes, enhance efficiency, and drive growth.
+-   **Data Visualization:** Creation of intuitive and interactive visualizations that make complex data easily understandable and accessible.
+-   **Consulting Services:** Expert consulting to help you build and optimize your data infrastructure and analytics capabilities.
+
+### Why Choose Me?
+
+-   **Expertise:** I bring extensive industry experience and a strong background in computer science and mathematics.
+-   **Innovative Solutions:** Utilizing the latest tools and technologies, I deliver innovative solutions that keep you ahead of the curve.
+-   **Client-Centric Approach:** I prioritize my clients' needs and work closely with them to ensure my solutions align with their objectives.
+-   **Proven Track Record:** I have a successful history of delivering impactful data science projects across various industries.
+
+Join me on a journey to harness the power of data and transform your business. Explore my website to learn more about the services I offer, read case studies, and discover how I can help you achieve your data-driven goals.
+
+Feel free to reach out for any inquiries or to discuss how we can collaborate to unlock the full potential of your data. Welcome to the future of data science!

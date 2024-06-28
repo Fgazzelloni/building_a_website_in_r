@@ -1,0 +1,57 @@
+---
+title: "Project 2: Sales Forecasting for Retail"
+categories: [Data Science, Time Series, Forecasting]
+image: "images/sales_analytics.png"
+---
+
+## Overview
+
+This project involved developing a time series forecasting model to predict future sales for a retail company. The objective was to optimize inventory management and improve sales strategies.
+
+## Key Features
+
+-   Data Exploration: Analyzing sales trends and seasonality.
+-   Model Development: Using ARIMA and Prophet models for forecasting.
+-   Model Evaluation: Comparing model performance using RMSE and MAPE.
+
+## R Code Snippet
+
+```{r}
+#| message: false
+#| warning: false
+# Load necessary libraries
+library(forecast)
+library(prophet)
+```
+
+```{r}
+#| message: false
+#| warning: false
+# Simulate retail sales data
+set.seed(123)
+n_months <- 72  # 6 years of monthly data
+dates <- seq.Date(from = as.Date("2015-01-01"), by = "month", length.out = n_months)
+sales <- rpois(n_months, lambda = 200) + seq(100, 300, length.out = n_months)
+
+# Create data frame
+sales_data <- data.frame(Date = dates, Sales = sales)
+
+# Data preprocessing
+sales_ts <- ts(sales_data$Sales, start = c(2015, 1), frequency = 12)
+
+# ARIMA model
+arima_model <- auto.arima(sales_ts)
+arima_forecast <- forecast(arima_model, h = 12)
+
+# Prophet model
+df <- data.frame(ds = sales_data$Date, y = sales_data$Sales)
+prophet_model <- prophet(df)
+future <- make_future_dataframe(prophet_model, periods = 12, freq = "month")
+prophet_forecast <- predict(prophet_model, future)
+
+# Plot forecasts
+plot(arima_forecast)
+prophet_plot_components(prophet_model, prophet_forecast)
+```
+
+\`\`\`

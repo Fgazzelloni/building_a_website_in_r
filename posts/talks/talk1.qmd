@@ -1,0 +1,13 @@
+---
+title: "Talking at R-Ladies"
+categories: ["Reproducible Research", "R-Ladies"]
+image: "images/rladiesrome_logo.png"
+---
+
+# Introduction
+
+I had the pleasure of talking at R-Ladies about reproducible research. I talked about the importance of reproducibility, the tools that can help you achieve it, and how to use them. I also showed how to use R Markdown to create reproducible reports.
+
+🎬 `Watch the Video Now` Simply click on the video below to watch it:
+
+{{< video https://youtu.be/hgpL-sppw7E >}}

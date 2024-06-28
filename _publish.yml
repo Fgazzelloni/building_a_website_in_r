@@ -1,0 +1,4 @@
+- source: project
+  quarto-pub:
+    - id: 68ab88da-81e7-4dcb-9ccc-5622b41b5d55
+      url: 'https://fgazzelloni.quarto.pub/my-website-in-r--quarto'
