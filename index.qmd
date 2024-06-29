@@ -1,5 +1,5 @@
 ---
-title: 'Welcome to my Website!🩷'
+title: </script><p class= "multipleStrings" >
 image: "images/homepage.jpg"
 image-alt: "Image created by AI"
 about: 
@@ -16,7 +16,16 @@ listing:
   max-items: 3
   categories: cloud
   image-placeholder: "images/profile_pic.png" 
+format:
+  html:
+    include-in-header: 
+      - text: |
+          <script src="https://cdn.jsdelivr.net/npm/typeit@7.0.4/dist/typeit.min.js">  
 ---
+
+
+
+
 
 ```{r}
 #| eval: false
@@ -59,3 +68,15 @@ I strive to provide cutting-edge data science solutions that harness the power o
 Join me on a journey to harness the power of data and transform your business. Explore my website to learn more about the services I offer, read case studies, and discover how I can help you achieve your data-driven goals.
 
 Feel free to reach out for any inquiries or to discuss how we can collaborate to unlock the full potential of your data. Welcome to the future of data science!
+
+
+
+```{=html}
+<script>new TypeIt(".multipleStrings", {
+    strings: ["'Welcome to my Website!🩷'", "The content of this website is made by AI", "It is a sample website created using QMD", "I hope you enjoy it!🚀"],
+    breakLines: false,
+    loop: true,
+    speed: 50
+  }).go();
+</script>
+```
