@@ -6,3 +6,5 @@ This is done for the workshop of June 28th, 2024 at R-Ladies Rome & NYC.
 If you need to connect RStudio to GitHub, please have a look at the "00_helper.R" file
 
 This is a version of the WebSite published on quartopub: [https://fgazzelloni.quarto.pub/my-website-in-r--quarto/](https://fgazzelloni.quarto.pub/my-website-in-r--quarto/)
+
+To access the giude for extending your Quarto WebSite: [https://quarto.org/docs/websites/](https://quarto.org/docs/websites/)
